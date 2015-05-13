@@ -1,0 +1,123 @@
+div{
+	margin: 1em 0em;
+}
+
+fieldset{
+	padding: 1em;
+	margin: 2em 0em;
+}
+
+.ver label{
+	display: block;
+	cursor: pointer;
+}
+
+
+textarea{
+	width: 50%;
+	height: 8em;
+}
+
+.clear{
+	clear:both;
+}
+
+em{
+	color:#760000;
+	font-size: 0.75em;
+}
+
+.hor label{
+	float: left;
+	width: 10em;
+	cursor: pointer;
+}
+
+.hor input[type="text"]{
+	width: 10em;
+	/*font-size: 1em;*/
+}
+
+.hor div{
+	position: relative;
+}
+
+.hor .feedback{
+	position: absolute;
+	left: 25em;
+	right: 0em;
+	top: 0.5em;
+}
+
+form div{
+	clear: both;
+}
+
+form .hide{
+	width: 0em;
+	text-indent: -999em;
+}
+
+#favorate{
+	border: none;
+	background-color: transparent;
+	margin: 0em;
+	padding: 0em;
+}
+
+#favorate h2{
+	width: 10em;
+	font-size: 1em;
+	font-weight: normal;
+	float: left;
+	cursor: pointer;
+	margin: 0em;
+}
+
+#favorate div{
+	clear: none;
+	margin: 0em;
+}
+
+#favorate .col{
+	float: left;
+}
+
+button{
+	width: 8em;
+	height: 3em;
+	border-radius: 1em;
+	border: 1px solid #989898;
+	background-color: #c5e063;
+	color: #333;
+	text-shadow: 1px 1px 1px #666;
+	box-shadow: 2px 2px 2px #ccc;
+	background: linear-gradient(to bottom, #CCFFCC, #c5e063);
+	cursor: pointer;
+	font-weight: bold;
+}
+
+
+#test label, #test input{
+	margin: 0em;
+	padding: 0em;
+	width: 10em;
+	border: 1px solid black;
+}
+
+#test label{
+	float: left;
+}
+
+#test div{
+	border: 1px solid black;
+	width: 10em;
+}
+
+#t1{
+	float: left;
+}
+
+
+
+

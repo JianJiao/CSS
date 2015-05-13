@@ -1,0 +1,65 @@
+body{
+	background-image: url(../img/sky.jpg);
+	background-repeat: repeat-x;
+	color: white;
+	background-color: black;
+}
+a:link{
+	color: blue;
+}
+a:visited{
+	color: green;
+}
+a:hover, a:focus, a:active{
+	color: red;
+}
+ul>li{
+	color: red;
+}
+ul ol li:first-child{
+	color: blue;
+}
+ul ol li:first-child + li{
+	color: red;
+}
+span {
+	width: 100%;
+	color: red;
+}
+#one{
+	position: relative;
+}
+#two{
+	position: absolute;
+	top: 25em;
+	left: 90%;
+}
+#three{
+	float: right;
+}
+
+#clear{
+	clear:  both;
+}
+
+#container{
+	overflow: auto;
+	background-image: url("sky.jpg");
+}
+
+#a, #b, #c{
+	float: left;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

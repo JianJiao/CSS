@@ -1,0 +1,156 @@
+a{
+	font-size: 2em;
+}
+
+/*#da:visited{
+	color: red;
+	background-color: yellow;
+	padding-left: 5em;
+	background-image: url(../img/checkbox.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}*/
+
+.style:link{
+	color: blue;
+
+}
+.style:visited{
+	color: yellow;
+}
+.style:hover, .style:active, .style:focus{
+	color: red;
+}
+
+
+
+.underline:link, .underline:visited{
+	text-decoration: none;
+	border-bottom: 1px dotted #000;
+}
+/* this one overwrites the above one */
+.underline:active, .underline:focus, .underline:hover{
+	border-bottom-style: solid;
+}
+
+.img:link, .img:visited{
+	text-decoration: none;
+	background-image: url(../img/dotted.jpg);
+	background-repeat: repeat-x;
+	background-position: left bottom;
+}
+
+
+.img:hover, .img:focus, .img:active{
+	background-image: url(../img/moving.gif);
+	background-repeat: repeat-x;
+	background-position: bottom left;
+}
+
+.target:link, .target:visited{
+	text-decoration:none;
+}
+
+.target:hover,.target:focus,.target:active{
+	text-decoration:underline;
+}
+
+
+a[href$=".png"]{
+	background-image: url(../img/img.png);
+	background-position: right top;
+	background-repeat: no-repeat;
+	padding-right: 0.5em;
+}
+
+a[href^="http:"]{
+	background-image:url(../img/external.png);
+	background-position:right top;
+	background-repeat:no-repeat;
+	padding-right: 0.5em;
+}
+
+.buttonish{
+	display: block;
+	text-decoration: none;
+	line-height: 1.2em;
+	text-align: center;
+	text-shadow: 1px 1px 1px gray;
+	width: 6em;
+	background-color: lightgreen;
+	border-radius: 0.4em;
+	border: 1px outset green;
+	box-shadow: 3px 3px 3px gray;
+	padding: 0em 0.5em;
+}
+
+.buttonish:visited{
+	background-color: lightgray;
+}
+
+.buttonish:hover, .buttonish:focus, buttonish:active{
+	background-color: lightyellow;
+}
+
+.gradient{
+	border: 1px outset green;
+	margin-top: 0.5em;
+	display: block;
+	width: 6em;
+	line-height: 1.2em;
+	text-align: center;
+	text-shadow: 1px 1px 1px gray;
+	text-decoration: none;
+	border-radius: 0.4em;
+	box-shadow: 3px 3px 3px gray;
+	padding: 0em 0.5em;
+	background: linear-gradient(to right, green, lightgreen);
+}
+
+.gradient:visited{
+	color: black;
+}
+
+p{
+	width: 20em;
+}
+p:target{
+	background-color: yellow;
+}
+
+#one a{
+	position: relative;
+	font-size: 1em;
+	padding-right: 1em;
+}
+
+#one span{
+	display:none;
+}
+
+
+#one a:hover span{
+	display: block;
+	position: absolute;
+	top:1em;
+	left:2em;
+	padding: 0.2em 0.6em;
+	border: 1px outset gray;
+	background-color: lightyellow;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

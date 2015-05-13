@@ -1,0 +1,94 @@
+#test{
+	border-collapse: separate;
+	border-spacing: 0;
+	text-align: center;
+	color: #333;
+}
+
+#test th, #test td{
+	margin: 0;
+	padding: 0;
+}
+
+
+.cal{
+	margin: 0em;
+	padding: 0em;
+	border-spacing: 0em;
+}
+
+.cal caption{
+	background-color: #d4dde6;
+}
+
+caption{
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+caption a{
+	text-decoration: none;
+	color: #333;
+}
+
+.cal a[rel="prev"]{
+	float: left;
+	padding-left: 0.5em;
+}
+
+.cal a[rel="next"]{
+	float: right;
+	padding-right: 0.5em;
+}
+
+.cal thead th{
+	background-color: #d4dde6;
+	border-bottom: 1px solid #a9bacb;
+	font-size: 0.875em;
+}
+
+
+.cal th, .cal td{
+	text-align: center;
+	margin: 0em;
+	padding: 0.5em;
+}
+
+.cal tbody{
+	background-color: #d0d9e2;
+	text-shadow: 1px 1px 1px white;
+	color: #333;
+}
+
+
+.cal td{
+	border-top: 1px solid #e0e0e1;
+	border-right: 1px solid #9f9fa1;
+	border-bottom: 1px solid #acacad;
+	border-left: 1px solid #dfdfe0;
+}
+
+.cal td.selected
+,.cal td:hover
+,.cal td:focus{
+	color: white;
+	background-color: #6d8ab7;
+	border-top: 1px solid #2a3647;
+	border-right: 1px solid #465977;
+	border-bottom: 1px solid #576e92;
+	border-left: 1px solid #466080;
+	cursor: pointer;
+}
+
+table.cal .null{
+	color: #a4a4a4;
+	background-color: #d0d9e2;
+	text-shadow: 1px 1px 1px white;
+	border-top: 1px solid #e0e0e1;
+	border-right: 1px solid #9f9fa1;
+	border-bottom: 1px solid #acacad;
+	border-left: 1px solid #dfdfe0;
+	cursor: default;
+}

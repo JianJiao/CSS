@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../css/form.css">
+</head>
+<body>
+	<form>
+		<label> Name: <input type="text" /></label>
+	</form>
+	<div class="test">
+		<p>A paragraph</p>
+	</div>
+
+	<form>
+		<fieldset class="ver">
+			<legend>Contact Details </legend>
+			<label for="name">Name: <em>(Required)</em></label>
+			<input type="text" name="name" id="name"/>
+			<label for="email">Email: <em>(Required)</em></label>
+			<input id="email" type="email" name="email" />
+		</fieldset>
+		<fieldset class="ver">
+			<legend>Comments </legend>
+			<label for="message">Message:</label>
+			<textarea name="message" id="message" placeholder="Your message here..."></textarea>
+		</fieldset>
+		<fieldset class="hor">
+			<legend>Horizontal</legend>
+			<div>
+				<label for="name">Name:</label>
+				<input type="text" name="name" id="name" /> 
+			</div>
+			<div>
+				<label for="age">Age:<em class="feedback">Wrong format. Please try again.</em></label>
+				<input type="text" name="age" id="age" />
+			</div>
+			<div>
+				<label for="dateOfBirth">Date of Birth</label>
+				<input type="text" name="dateOfBirth" id="dateOfBirth" />
+				<label for="monthOfBirth" class="hide">Month of Birth</label>
+				<select name="monthOfBirth" id="monthOfBirth">
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+				</select>
+				<label for="yearOfBirth" class="hide">Year of Birth</label>
+				<input name="yearOfBirth" id="yearOfBirth" type="text" />
+			</div>
+			<fieldset id="favorate">
+				<h2>Favorate Color:</h2>
+				<div class="col">
+					<div>
+						<label for="red" ><input type="checkbox" name="red" id="red" />Red	</label>
+					</div>
+					<div>
+						<label for="black"><input type="checkbox" name="black" id="black" />Black</label>
+						
+					</div>
+				</div>
+
+				<div class="col">
+					<div>
+						<label><input type="checkbox" id="yellow" name="yellow" />Yellow</label>
+					</div>
+					<div>
+						<label><input type="checkbox" name="orange" id="orange" />orange</label>
+					</div>
+				</div>
+			</fieldset>
+		</fieldset>
+
+
+		<button>Submit</button>
+
+
+
+	</form>
+
+	<div id="test">
+		<label>aaa</label><br/>
+		<input type="text" />
+		<br class="clear"/>
+		<div id="t1">test div</div>
+		<div id="t2">another test div</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

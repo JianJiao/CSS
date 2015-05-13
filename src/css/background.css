@@ -1,0 +1,160 @@
+body, body *{
+	color: white;
+	margin: 0em;
+	padding: 0em;
+}
+body{
+	background-color: black;
+}
+#container{
+	background-color: black;
+	color: white;
+	background-image: url(../img/sky.jpg);
+	background-repeat: no-repeat;
+}
+#container > p{
+	float: left;
+}
+
+
+#list p{
+	padding-left: 1.2em;
+	background-image: url(../img/bullet.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#list ul{
+	padding-left: 2em;
+}
+
+#right_container{
+	margin-left: 30em;
+}
+
+#rounded_ranctangle{
+	margin: 1em;
+	background-color: #615E60;
+	border: 0.1px outset white;
+	border-radius: 1em;
+	width: 50%;
+	padding: 1em;
+}
+
+#multiple_bg_img{
+	width: 30em;
+	border: 1px outset white;
+	margin: 1em;
+	padding: 1em;
+	padding-bottom: 3em;
+	background-image: url(../img/cocos2d.png)
+										,url(../img/oc.png);
+	background-repeat: no-repeat 
+											,no-repeat;
+	background-position: top right
+												,bottom right;
+}
+
+
+
+#border{
+	border-image: url(../img/border.png) 25% /25px round;
+	padding: 2em;
+	width: 30em;
+}
+
+
+.in_content{
+	padding: 1em;
+	margin: 1em;
+}
+
+#shadow{
+	background-image: url(../img/gray.jpg);
+	float: left;
+	padding: 0em;
+	border-radius: 1em;
+}
+
+#shadow div{
+	background-color: black;
+	padding: 1em;
+	border: 0.01px solid white;
+	border-radius: 1em;
+	width: 30em;
+	position: relative;
+	top:-4px;
+	left: -4px;
+}
+
+
+#shadow_margin{
+	background-image: url(../img/gray.jpg);
+	float: left;
+	padding: 0em;
+	border-radius: 1em;
+}
+
+#container #shadow_margin div{
+	padding: 1em;
+	background-color: black;
+	border: 0.01px solid white;
+	border-radius: 1em;
+	width: 30em;
+	margin:  -4px 4px 4px -4px;
+}
+
+
+#trans1{
+	margin: 2em;
+	background-color: gray;
+	width: 20em;
+	position: absolute;
+	top: 15em;
+	left: 30em;
+	padding: 2em;
+	border-radius: 2em;
+	border: 1px inset gray;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
+}
+
+
+#trans2{
+	margin: 2em;
+	background-color: rgba(128,128,128,0.6);
+	width: 20em;
+	position: absolute;
+	top: 25em;
+	left: 30em;
+	padding: 2em;
+	border-radius: 2em;
+	border: 1px inset gray;
+}
+
+
+/* css doesn't use comma! */
+#shadow_css3{
+	border: 1px inset white;
+	border-radius: 2em;
+	box-shadow: 4px 4px 4px #888888;
+	width: 30em;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

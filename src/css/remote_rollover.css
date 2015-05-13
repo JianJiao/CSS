@@ -1,0 +1,105 @@
+#rollover{
+	position: relative;
+	width: 799.68px;
+	height: 600px;
+}
+
+ul{
+	list-style: none;
+}
+
+span.hot{
+	position: absolute;
+	height: 2em;
+	width: 2em;
+}
+
+a{
+	text-decoration: none;
+}
+
+li.baidu span.hot{
+	top: 340px;
+	left: 22px;
+}
+
+li.google span.hot{
+	top: 315px;
+	left: 96px;
+}
+
+li.yahoo span.hot{
+	top: 355px;
+	left: 193px;
+}
+
+li.baidu:hover span.hot
+,li.baidu:focus span.hot{
+	border: 1px solid red;
+}
+
+li.google:hover span.hot
+,li.google:focus span.hot{
+	border:1px solid red;
+}
+
+li.yahoo:hover span.hot
+,li.yahoo:focus span.hot{
+	border: 1px solid red;
+}
+
+li.baidu:hover span.text
+,li.baidu:focus span.text{
+	color: red;
+}
+
+li.google:hover span.text
+,li.google:focus span.text{
+	color: red;
+}
+
+li.yahoo:hover span.text
+,li.yahoo:focus span.text{
+	color: red;
+}
+
+span.text{
+	position: absolute;
+	right: -7em;
+	display: block;
+	width: 6em;
+}
+
+li.baidu span.text{
+	top: 1em;
+}
+
+li.google span.text{
+	top: 2em;
+}
+
+li.yahoo span.text{
+	top: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+
+.img{
+	position: relative;
+	border: 1px solid black;
+}
+
+
+
+ul{
+	margin:0em;
+	padding: 0em;
+}
+
+li{
+	list-style-type: none;
+}
+
+.img a{
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 10em;
+	height: 12em;
+	position: absolute;
+	top: 30;
+	left: 200;
+}
+
+.img span{
+	border: 1px solid rgba(247,242,242, 0.5);
+	background-color: rgba(250,232,205, 0.6);
+	position: absolute;
+	border-radius: 0.4em;
+	left: -999em;
+	top: 13em;
+	width: 7em;
+	margin-left: -3.5em;
+
+}
+
+
+.img a:hover{
+	border: 1px solid white;
+}
+
+.img a:hover span{
+	left: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

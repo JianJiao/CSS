@@ -1,0 +1,35 @@
+.wrapper{
+	width: 960;
+	margin: 0em auto;
+}
+
+.header, .footer{
+	background-color: lightgray;
+	overflow: hidden;
+}
+
+.content{
+	overflow: hidden;
+}
+
+.content .primary{
+	width: 710;
+	float: right;
+}
+
+.content >.secondary{
+	width: 230;
+	float: left;
+	background-color: #e6e6e6;
+
+}
+
+.primary .primary{
+	width: 460;
+	float: left;
+}
+
+.primary .secondary{
+	width: 230;
+	float: right;
+}

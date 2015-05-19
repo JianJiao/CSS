@@ -19,8 +19,7 @@
 }
 
 
-
-.col{
+.col{	
 	-moz-column-count: 3;
 	-moz-column-width: 14em;
 	-moz-column-gap: 2em;
@@ -41,7 +40,7 @@
 	clear the margin because it only 
 	applies to the first column
 	*/
-	margin-top: 0px;
+	margin-top: 0;
 }
 
 
